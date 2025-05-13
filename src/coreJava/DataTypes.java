@@ -3,11 +3,54 @@ package coreJava;
 public class DataTypes {
 
 	public static void main(String[] args) {
+	
+	//variables
+		
+		//int s; //declaration
+		//s=100; //assignment
+		
+		int s=100; 	// declaration+assignment
+		System.out.println(s);
+		
+		s=200;
+		System.out.println(s);
+		
+	/*	
+	// approach1  // if all the variables belongs to different data types
+		int p=1;
+		int o=2;
+		int i=3;
+	*/
+		
+	/* approach2 // only if allthe variable are belongs to same data type
+	 	int p,o,i;
+	 	p=1;
+	 	o=2;
+	 	i=3;
+	 */
+		
+	// approach3 //only if all the variable are belongs to same data type
+	 	int p=1,o=2,i=3;
+	 	
+	//for meaningful message in print statement we can use concatenation method		
+	 	System.out.println("The Value of p is :"+p);
+		System.out.println("The Value of o is :"+o);
+		System.out.println("The Value of i is :"+i); 
+	 
+	// in single line we printed all variable values
+	 	System.out.println(p+""+o+""+i+"");
+		
+	// in print statement we used join method for each value with ""	
+	 
+		
+//--------------------------------------------------------------------------	
+	// Data types
+		
 		// Numeric Data Types
 		
 				int a=100, b=200;
-				System.out.println("The vlaue of a is :"+a);
-				System.out.println("The vlaue of b is :"+b);
+				System.out.println("The Value of a is :"+a);
+				System.out.println("The Value of b is :"+b);
 				System.out.println(a+b);
 				System.out.println("The sum of an and b is : "+(a+b));
 				
@@ -55,6 +98,8 @@ public class DataTypes {
 				
 				//String bl=true;//invalid
 				 String bl2="true";//valid
+				 
+	//----------------------------------------------------------------------	
 				 
 				 //difference between variable and const/final
 				 int x=100;
