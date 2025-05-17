@@ -1,0 +1,114 @@
+Java Conditional Statements – Study Material
+Overview
+This session covers Java conditional statements, a key concept used to control the flow of execution in Java programs based on certain conditions. These are crucial when automating test cases using Selenium.
+
+Types of Conditional Statements in Java
+1. if Statement
+Syntax:
+
+ java
+CopyEdit
+if (condition) {
+    // code to execute if condition is true
+}
+
+
+Usage: Executes a block only if the condition is true.
+
+
+2. if-else Statement
+Syntax:
+
+ java
+CopyEdit
+if (condition) {
+    // true block
+} else {
+    // false block
+}
+
+
+Usage: Provides an alternate block of code if the condition is false.
+
+
+3. if-else-if Ladder
+Syntax:
+
+ java
+CopyEdit
+if (condition1) {
+    // block 1
+} else if (condition2) {
+    // block 2
+} else {
+    // default block
+}
+
+
+Usage: Checks multiple conditions sequentially.
+
+
+4. Nested if
+Usage: if statement inside another if block.
+
+
+Allows more complex decision structures.
+
+
+
+Switch Statement
+Syntax:
+
+ java
+CopyEdit
+switch (expression) {
+    case value1:
+        // code block
+        break;
+    case value2:
+        // code block
+        break;
+    default:
+        // default block
+}
+
+
+Usage: Best used when evaluating one variable against many possible constant values.
+
+
+Limitations: Works only with byte, short, char, int, enum, and String (Java 7+).
+
+
+
+Comparison and Logical Operators
+Used in condition checks:
+Comparison Operators: ==, !=, <, >, <=, >=
+
+
+Logical Operators: && (AND), || (OR), ! (NOT)
+
+
+
+Practical Examples
+Age Validation: Check if a user is eligible to vote.
+
+
+Grade System: Use of if-else-if ladder to assign grades.
+
+
+Menu Selection: Switch case to select options like login, register, etc.
+
+
+
+Key Points
+Conditional statements allow branching logic in programs.
+
+
+Use if when there's only one condition.
+
+
+Use switch for cleaner code when checking a single variable against multiple constants.
+
+
+Always test boundary conditions.
+
