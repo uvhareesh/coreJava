@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author uvhar
- *
- */
-module coreJava {
-}
